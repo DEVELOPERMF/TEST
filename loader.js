@@ -1,4 +1,6 @@
 //Tento script je vytvorený MRFALSOM pre TEST účely.
 
-API.sendChat("@MRFALSE> Test SKIP SCRIPT je spustený!");
-API.moderateForceSkip();
+API.sendChat("@MRFALSE> Test SCRIPT je spustený!");
+if (label.equalsIgnoreCase("!test")) {
+		    API.sendChat("test");
+		}
