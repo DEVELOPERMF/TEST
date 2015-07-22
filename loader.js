@@ -8,7 +8,7 @@ function chat(data) {
 
 	if(from === "MRFALSE") {
 		if(msg === "!afk") {
-			API.sendChat("Aktuálne som preč od klávesnice.");
+API.sendChat("Aktuálne som preč od klávesnice.");			
 		}
 	}
 }
