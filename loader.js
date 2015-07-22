@@ -37,7 +37,7 @@ function chat(data) {
 
 	if(from === "MRFALSE") {
 		if(msg === "!afk") {
-			$('#meh').click();
+			API.sendChat("Aktuálne som preč od klávesnice.");
 		}
 	}
 }
