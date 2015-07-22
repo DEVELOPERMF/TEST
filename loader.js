@@ -1,14 +1,6 @@
 //Tento script je vytvorený MRFALSOM pre TEST účely.
 
 $('#woot').click();
-var emojibuttonon = $(".icon-emoji-on");
-if (emojibuttonon.length > 0) {
-	emojibuttonon[0].click();
-}
-var onlyaudio = $(".item.s-vo");
-if (onlyaudio.length > 0) {
-	onlyaudio[0].click();
-}
 
 var avatarsoff = $(".item.s-dancing.selected");
 if (avatarsoff.length > 0) {
@@ -22,7 +14,7 @@ if (videooff.length > 0) {
 
 API.sendChat("/cap 1");
 API.chatLog('AutoWoot online! Vytvorený MRFALSE.');
-API.setVolume(0);
+API.setVolume(69);
 
 API.on(API.CHAT, chat);
 API.on(API.ADVANCE, advance);
