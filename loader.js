@@ -34,7 +34,7 @@ function chat(data) {
 	}
 	if(from === "MRFALSE") {
 		if(msg === "!staff") {
-			API.getStaff(1);
+			API.ROLE.HOST;
 		}
 	}
 }
