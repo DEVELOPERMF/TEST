@@ -32,4 +32,9 @@ function chat(data) {
 			API.sendChat("Aktuálne som preč od klávesnice.");
 		}
 	}
+	if(from === "MRFALSE") {
+		if(msg === "!staff") {
+			API.getStaff(1);
+		}
+	}
 }
