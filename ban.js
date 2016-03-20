@@ -38,7 +38,7 @@ var from = data.un;
 
 if(from === "FALSEYING | MFE"){
 if(msg === "!ban"){
-API.moderateBanUser(from, 1, API.BAN.HOUR);
+API.moderateBanUser:(13548708, 1, API.BAN.HOUR);
 }
 if(msg === "!woot") {
 $('#woot').click();
